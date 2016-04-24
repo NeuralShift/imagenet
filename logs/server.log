@@ -1,0 +1,50 @@
+[33m[W 2016/04/23 19:46:56] [web.lua] 404 Not Found GET /manager/html (61.160.232.33) 0ms[0m
+[33m[W 2016/04/23 19:46:56] [web.lua] 404 Not Found GET / (10.250.33.105) 0ms[0m
+[33m[W 2016/04/23 19:47:30] [web.lua] 404 Not Found GET /logs (10.250.33.105) 0ms[0m
+[33m[W 2016/04/23 19:47:41] [web.lua] 404 Not Found GET /logs/server.log (10.250.33.105) 1ms[0m
+[33m[W 2016/04/23 20:02:49] [web.lua] 404 Not Found GET /logs/server.log (10.250.33.105) 1ms[0m
+[33m[W 2016/04/23 20:04:19] [web.lua] 404 Not Found GET /logs (10.250.33.105) 0ms[0m
+[33m[W 2016/04/23 20:32:36] [web.lua] 404 Not Found GET /logs/server.log (10.250.33.105) 0ms[0m
+[33m[W 2016/04/24 00:40:58] [web.lua] 404 Not Found GET http://www.google.com/reader/about/ (91.236.75.4) 0ms[0m
+[33m[W 2016/04/24 03:23:59] [web.lua] 404 Not Found GET /manager/html (222.186.58.94) 0ms[0m
+[33m[W 2016/04/24 11:06:18] [web.lua] 404 Not Found GET /robots.txt (68.180.228.104) 0ms[0m
+[33m[W 2016/04/24 11:06:19] [web.lua] 404 Not Found GET /job/CNN%20Object%20Recognition (68.180.228.104) 1ms[0m
+/home/student/neuralshift/torch/install/bin/luajit: ...t/neuralshift/torch/install/share/lua/5.1/image/init.lua:219: Not a JPEG file: starts with 0x7b 0x22
+stack traceback:
+	[C]: in function 'load'
+	...t/neuralshift/torch/install/share/lua/5.1/image/init.lua:219: in function 'loader'
+	...t/neuralshift/torch/install/share/lua/5.1/image/init.lua:367: in function 'load'
+	classify.lua:35: in main chunk
+	[C]: in function 'dofile'
+	...hift/torch/install/lib/luarocks/rocks/trepl/scm-1/bin/th:145: in main chunk
+	[C]: at 0x00406670
+[I 2016/04/23 20:32:27] Web server started on port: 8080
+[I 2016/04/23 20:32:41] [web.lua] Added logs/server.log (646 bytes) to static file cache. 
+[32m[S 2016/04/23 20:32:41] [web.lua] 200 OK GET /logs (10.250.33.105) 0ms[0m
+[I 2016/04/23 20:32:50] [web.lua] Added public/index.html (672 bytes) to static file cache. 
+[32m[S 2016/04/23 20:32:50] [web.lua] 200 OK GET / (10.250.33.105) 0ms[0m
+[32m[S 2016/04/23 21:32:39] [web.lua] 200 OK GET https://m.baidu.com/ (222.186.34.155) 0ms[0m
+[24-04-2016 11:17:15 AM] 	
+[32m[S 2016/04/24 11:17:15] [web.lua] 200 OK POST /neuralshift/data/imgrec (67.188.225.212) 1713ms[0m
+[24-04-2016 01:33:03 PM] rubber eraser, rubber, pencil eraser~~ballpoint, ballpoint pen, ballpen, Biro~~rule, ruler~~letter opener, paper knife, paperknife~~hammer	
+[32m[S 2016/04/24 13:33:03] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2052ms[0m
+[24-04-2016 01:33:26 PM] punching bag, punch bag, punching ball, punchball~~desk~~dumbbell~~water bottle~~joystick	
+[32m[S 2016/04/24 13:33:26] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2178ms[0m
+[24-04-2016 01:33:44 PM] ballpoint, ballpoint pen, ballpen, Biro~~letter opener, paper knife, paperknife~~fountain pen~~rubber eraser, rubber, pencil eraser~~syringe	
+[32m[S 2016/04/24 13:33:44] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2134ms[0m
+[24-04-2016 01:34:28 PM] remote control, remote~~cellular telephone, cellular phone, cellphone, cell, mobile phone~~modem~~digital watch~~hand-held computer, hand-held microcomputer	
+[32m[S 2016/04/24 13:34:28] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2081ms[0m
+[36m[d 2016/04/24 13:40:26] Maximum read buffer size reached. Throttling read.[0m
+[24-04-2016 01:40:28 PM] water bottle~~hair spray~~nipple~~water jug~~can opener, tin opener	
+[32m[S 2016/04/24 13:40:28] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2850ms[0m
+[24-04-2016 01:47:24 PM] mouse, computer mouse~~ocarina, sweet potato~~frying pan, frypan, skillet~~lens cap, lens cover~~puck, hockey puck	
+[32m[S 2016/04/24 13:47:24] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2234ms[0m
+[24-04-2016 02:40:53 PM] Norfolk terrier~~Brittany spaniel~~wire-haired fox terrier~~cocker spaniel, English cocker spaniel, cocker~~golden retriever	
+[32m[S 2016/04/24 14:40:53] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2019ms[0m
+[24-04-2016 02:41:18 PM] punching bag, punch bag, punching ball, punchball~~water bottle~~ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin~~coffeepot~~milk can	
+[32m[S 2016/04/24 14:41:18] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2132ms[0m
+[24-04-2016 02:41:38 PM] soap dispenser~~water bottle~~saltshaker, salt shaker~~cocktail shaker~~perfume, essence	
+[32m[S 2016/04/24 14:41:38] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 2452ms[0m
+[24-04-2016 02:42:05 PM] soap dispenser~~water jug~~water bottle~~vase~~cocktail shaker	
+[32m[S 2016/04/24 14:42:05] [web.lua] 200 OK POST /neuralshift/data/imgrec (73.241.157.156) 1975ms[0m
+[24-04-2016 02:42:21 PM] screwdriver~~lipstick, lip rouge~~dumbbell~~lighter, light, igniter, ignitor~~ballpoint, ballpoint pen, ballpen, Biro	
